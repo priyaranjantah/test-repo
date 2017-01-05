@@ -1,0 +1,810 @@
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> cov-build 8.7.0 (build b452b3f2c8 p-lodi-push-28091.612)
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> Coverity Build Capture (64-bit) version 8.7.0 on Windows 7 Enterprise, 64-bit, Service Pack 1 (build 7601)
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> Internal version numbers: b452b3f2c8 p-lodi-push-28091.612
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> Dumping from hostname : INENTAHP1L2C
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> Platform info: Windows 7 Enterprise, 64-bit, Service Pack 1 (build 7601)
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> cov-build command: cov-build --dir cov-int mvn -DskipTests=true compile 
+2017-01-05T12:56:05.877448Z|cov-build|11696|info|> cov-build expanded command: cov-build --dir cov-int mvn -DskipTests=true compile 
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> build command: C:\apache-maven-3.3.9\bin\mvn.cmd -DskipTests=true compile
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> thunk command: mvn.cmd -DskipTests=true compile
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_BUILD_COMMAND to "C:\apache-maven-3.3.9\bin\mvn.cmd"  -DskipTests=true compile
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_ORIG_BUILD_COMMAND to mvn.cmd -DskipTests=true compile
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int mvn -DskipTests=true compile 
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set UseSharedCompilation to false.
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to static
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_BIN to C:/cov-analysis-win64-8.7.0/bin
+2017-01-05T12:56:05.906446Z|cov-build|11696|info|> Set COVERITY_SITE_CC to apt;c++;cc;cl;clang;clang++;csc;csc2;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;java;javac;javaw;ld
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_TEMP to C:/Users/tahp1/AppData/Local/Temp/cov-tahp1/e9908915e8720d0894b33591e5f25f98
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_COMMON_TEMP to C:/Users/tahp1/AppData/Local/Temp
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_IDIR to C:/jars/test-repo/jars/cov-int
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-c1c3e6411947d8be5ff51b3785918686.s
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-c1c3e6411947d8be5ff51b3785918686.m
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_SYSTEM_ENCODING to windows-1252
+2017-01-05T12:56:05.907445Z|cov-build|11696|info|> Set COVERITY_EMIT to C:/jars/test-repo/jars/cov-int/emit
+2017-01-05T12:56:05.908445Z|cov-build|11696|info|> Set COVERITY_EMIT to C:/jars/test-repo/jars/cov-int/emit
+2017-01-05T12:56:05.908445Z|cov-build|11696|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2017-01-05T12:56:05.908445Z|cov-build|11696|info|> Append to PATH C:\cov-analysis-win64-8.7.0\jars
+2017-01-05T12:56:05.908445Z|cov-build|11696|info|> Setting COVERITY_LD_LIBRARY_PATH to C:\cov-analysis-win64-8.7.0\jars
+2017-01-05T12:56:05.908445Z|cov-build|11696|info|> Set COVERITY_JAVA_CMD_LINE_BUF_SIZE to 1024
+2017-01-05T12:56:05.909445Z|cov-build|11696|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2017-01-05T12:56:05.909445Z|cov-build|11696|info|> Set COVERITY_USING_CYGWIN to False
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> Dumping configuration:
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> User/default configuration:
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> Configuration read from: command-line
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config\coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: prevent
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>       Node: dir Value: C:\jars\test-repo\jars\cov-int
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-gcc-config-7/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-g++-config-2/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-gcc-config-8/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-gcc-config-9/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-g++-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-g++-config-4/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-ld-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-gcc-config-10/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-g++-config-5/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-javac-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-java-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-apt-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-javaw-config-3/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-jsp-config-2/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-android-config-2/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-web-app-config-config-2/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-gcc-config-11/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-csc-config-6/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-csc-config-7/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-clangcc-config-4/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-clangcxx-config-4/coverity_config.xml
+2017-01-05T12:56:05.910445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-javascript-config-3/coverity_config.xml
+2017-01-05T12:56:05.911445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-html-config-5/coverity_config.xml
+2017-01-05T12:56:05.911445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-ruby-config-2/coverity_config.xml
+2017-01-05T12:56:05.911445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-php-config-3/coverity_config.xml
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|>     Node: include Value: C:\cov-analysis-win64-8.7.0\config/template-python-config-3/coverity_config.xml
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-7\coverity_config.xml
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.912445Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: comp_name Value: gcc
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: comp_translator Value: gcc
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: id Value: gcc-gcc-.*
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-7/../user_nodefs.h
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.913445Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: id Value: g++-gcc-.*
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-7/../user_nodefs.h
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: id Value: g++cc-gcc-.*
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-7/../user_nodefs.h
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-g++-config-2\coverity_config.xml
+2017-01-05T12:56:05.914445Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: comp_name Value: g++
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: comp_translator Value: g++
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: id Value: g++-g++-.*
+2017-01-05T12:56:05.915445Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-2/../user_nodefs.h
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>         Node: id Value: g++cc-g++-.*
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-2/../user_nodefs.h
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-8\coverity_config.xml
+2017-01-05T12:56:05.916445Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>         Node: comp_name Value: gcc-3
+2017-01-05T12:56:05.917444Z|cov-build|11696|info|>         Node: comp_translator Value: gcc
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>         Node: id Value: gcc-gcc-3-.*
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-8/../user_nodefs.h
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.918444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: id Value: g++-gcc-3-.*
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-8/../user_nodefs.h
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-8/../user_nodefs.h
+2017-01-05T12:56:05.919444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-9\coverity_config.xml
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.920444Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>         Node: comp_name Value: gcc-4
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>         Node: comp_translator Value: gcc
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.921444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: id Value: gcc-gcc-4-.*
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-9/../user_nodefs.h
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: id Value: g++-gcc-4-.*
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-9/../user_nodefs.h
+2017-01-05T12:56:05.922444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-9/../user_nodefs.h
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-01-05T12:56:05.923444Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-g++-config-3\coverity_config.xml
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>         Node: comp_name Value: g++-3
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>         Node: comp_translator Value: g++
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.924444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: id Value: g++-g++-3-.*
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-3/../user_nodefs.h
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: id Value: g++cc-g++-3-.*
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-3/../user_nodefs.h
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-g++-config-4\coverity_config.xml
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.925444Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: comp_name Value: g++-4
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: comp_translator Value: g++
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: id Value: g++-g++-4-.*
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-4/../user_nodefs.h
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.926444Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: id Value: g++cc-g++-4-.*
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-4/../user_nodefs.h
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-ld-config-3\coverity_config.xml
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: comp_name Value: ld
+2017-01-05T12:56:05.927443Z|cov-build|11696|info|>         Node: comp_translator Value: ld
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>         Node: id Value: ld-ld-.*
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-ld-config-3/../user_nodefs.h
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-10\coverity_config.xml
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.928443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: comp_name Value: cc
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: comp_translator Value: gcc
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: id Value: gcc-cc-.*
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-10/../user_nodefs.h
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.929443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: id Value: g++-cc-.*
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-10/../user_nodefs.h
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: id Value: g++cc-cc-.*
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-10/../user_nodefs.h
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>   Node: md5 Value: 5ab1d465abf1e699248ecdb7fe5931c0
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-g++-config-5\coverity_config.xml
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.930443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: comp_name Value: c++
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: comp_translator Value: g++
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: id Value: g++-c++-.*
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-5/../user_nodefs.h
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.931443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: id Value: g++cc-c++-.*
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-g++-config-5/../user_nodefs.h
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>   Node: md5 Value: 92107d6a420ac9dd06caaaf4fa667276
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-javac-config-3\coverity_config.xml
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: comp_name Value: javac
+2017-01-05T12:56:05.932443Z|cov-build|11696|info|>         Node: comp_translator Value: javac
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: comp_lang Value: Static Java
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: id Value: javac-javac-.*
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-java-config-3\coverity_config.xml
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: comp_name Value: java
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: comp_translator Value: java
+2017-01-05T12:56:05.933443Z|cov-build|11696|info|>         Node: comp_lang Value: Static Java
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>         Node: id Value: java-java-.*
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-apt-config-3\coverity_config.xml
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.934443Z|cov-build|11696|info|>         Node: comp_name Value: apt
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: comp_translator Value: apt
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: comp_lang Value: Static Java
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: id Value: apt-apt-.*
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-javaw-config-3\coverity_config.xml
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: comp_name Value: javaw
+2017-01-05T12:56:05.935443Z|cov-build|11696|info|>         Node: comp_translator Value: javaw
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: comp_lang Value: Static Java
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: id Value: javaw-javaw-.*
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-jsp-config-2\coverity_config.xml
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.936443Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: comp_translator Value: jsp
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-android-config-2\coverity_config.xml
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.937442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: comp_translator Value: android
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.xml$
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|>   Node: md5 Value: 07be021ce31fbf4d039bdd2f06118c8b
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-web-app-config-config-2\coverity_config.xml
+2017-01-05T12:56:05.938442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-web-app-config-0
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: comp_translator Value: web-app-config
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: file_include_pattern Value: a^
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-.*
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.939442Z|cov-build|11696|info|>   Node: md5 Value: d9eb77898431b05afa429cabaa9b74e7
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-11\coverity_config.xml
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: comp_name Value: cl
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: comp_translator Value: gcc
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: comp_generic Value: gnu
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: id Value: gcc-cl-.*
+2017-01-05T12:56:05.940442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-11/../user_nodefs.h
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: id Value: g++-cl-.*
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-11/../user_nodefs.h
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: id Value: g++cc-cl-.*
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-gcc-config-11/../user_nodefs.h
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|>   Node: md5 Value: c5b42046c37bd8306325f045fb9a9213
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-csc-config-6\coverity_config.xml
+2017-01-05T12:56:05.941442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: comp_name Value: csc
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: comp_translator Value: csc
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: comp_lang Value: C#
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: comp_generic Value: csc
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: id Value: csc-csc-.*
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.942442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-csc-config-7\coverity_config.xml
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: comp_name Value: csc2
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: comp_translator Value: csc
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: comp_lang Value: C#
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: comp_generic Value: csc
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: id Value: csc-csc2-.*
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2017-01-05T12:56:05.943442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4\coverity_config.xml
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: comp_name Value: clang
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: comp_translator Value: clangcc
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: comp_generic Value: clang
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: id Value: clangcc-clang-.*
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4/../user_nodefs.h
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.944442Z|cov-build|11696|info|>         Node: id Value: clangcxx-clang-.*
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4/../user_nodefs.h
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: id Value: clangcxxcc-clang-.*
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4/../user_nodefs.h
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: id Value: clangobjc-clang-.*
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4/../user_nodefs.h
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.945442Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: id Value: clangobjcxx-clang-.*
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcc-config-4/../user_nodefs.h
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-clangcxx-config-4\coverity_config.xml
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: comp_name Value: clang++
+2017-01-05T12:56:05.946442Z|cov-build|11696|info|>         Node: comp_translator Value: clangcxx
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: comp_lang Value: C/C++
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: comp_generic Value: clang
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: id Value: clangcxx-clang++-.*
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcxx-config-4/../user_nodefs.h
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: id Value: clangcxxcc-clang++-.*
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcxx-config-4/../user_nodefs.h
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: id Value: clangobjc-clang++-.*
+2017-01-05T12:56:05.947441Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcxx-config-4/../user_nodefs.h
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: id Value: clangobjcxx-clang++-.*
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: opt_preinclude_file Value: C:\cov-analysis-win64-8.7.0\config\template-clangcxx-config-4/../user_nodefs.h
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-javascript-config-3\coverity_config.xml
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2017-01-05T12:56:05.948441Z|cov-build|11696|info|>         Node: comp_translator Value: javascript
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: comp_generic Value: javascript
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.js$
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>   Node: md5 Value: 563da12bfde10684a4edb4df8bb3bff2
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-html-config-5\coverity_config.xml
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.949441Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: comp_translator Value: html
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: comp_generic Value: javascript
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>   Node: md5 Value: 19397d11982615e58d756dc918e6d3c2
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-ruby-config-2\coverity_config.xml
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.950441Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: comp_translator Value: ruby
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: comp_generic Value: ruby
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.rb$
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>   Node: md5 Value: e05b5d016abf502f4374682646f80501
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-php-config-3\coverity_config.xml
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.951441Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: comp_translator Value: php
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: comp_generic Value: php
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.php$
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|>   Node: md5 Value: 8bf88b4c45e978fe7f5e31c6d61cde3a
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.952441Z|cov-build|11696|info|> Configuration read from: C:\cov-analysis-win64-8.7.0\config\template-python-config-3\coverity_config.xml
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: comp_translator Value: python
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: comp_generic Value: python
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: file_include_pattern Value: ^.*\.py$
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.953441Z|cov-build|11696|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2017-01-05T12:56:05.954441Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> Cached template configuration instances:
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\java-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\javac-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-jsp-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-android-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-web-app-config-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: include Value: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\javaw-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\java-config-0\coverity_config.xml
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_name Value: java
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_101\bin
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_translator Value: java
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_lang Value: Java
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_front_end Value: cov-emit-java
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_desc Value: Oracle Java compiler (java)
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: id Value: java-java-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: version Value: 1.8
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: is_compiler Value: true
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: is_linker Value: false
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: id Value: java-java-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: template_config_option_id Value: java-java-.*
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: inject_capture
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: intern_trans Value: java_capture_inject
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.emit=$COVERITY_EMIT$
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.build_log=$COVERITY_OUTPUT$
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.force.debug=true
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.executable_name=$NATIVE_COMPILER$
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>         Node: expand
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.965440Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>               Node: replace Value: @+(.*)
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>             Node: intern_split_response_file_fn Value: line_split
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: pre_trans
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>             Node: intern_trans Value: java_pre_translate
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>   Node: md5 Value: d741d739d77a644478a6fdbe09dcc92f
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\javac-config-0\coverity_config.xml
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_name Value: javac
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_101\bin
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_translator Value: javac
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_lang Value: Java
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_front_end Value: cov-emit-java
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_desc Value: Oracle Java compiler (javac)
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: id Value: javac-javac-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: version Value: 1.8
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: is_compiler Value: true
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: is_linker Value: false
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: id Value: javac-javac-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: template_config_option_id Value: javac-javac-.*
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>         Node: inject_capture
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>             Node: intern_trans Value: javac_capture_inject
+2017-01-05T12:56:05.966440Z|cov-build|11696|info|>             Node: prepend_arg Value: -J-Dcoverity.emit=$COVERITY_EMIT$
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: prepend_arg Value: -J-Dcoverity.build_log=$COVERITY_OUTPUT$
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: prepend_arg Value: -J-Dcoverity.force.debug=true
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: prepend_arg Value: -J-Dcoverity.executable_name=$NATIVE_COMPILER$
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>         Node: expand
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>               Node: replace Value: @+(.*)
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: intern_split_response_file_fn Value: line_split
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>         Node: pre_trans
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>             Node: intern_trans Value: java_pre_translate
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|>   Node: md5 Value: 17ce7ac2ef68f321650950c7e97521b0
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.967439Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-jsp-config-0\coverity_config.xml
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-jsp
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_translator Value: jsp
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-.*
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>   Node: md5 Value: b99a2790c85c4938a8386681f69b0e56
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-android-config-0\coverity_config.xml
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-android
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_translator Value: android
+2017-01-05T12:56:05.968439Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: id Value: android-cov-filesystem-capture-android-.*
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>   Node: md5 Value: a681ed1586c2ef93984cd2a83198f0f5
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\template-web-app-config-config-0\coverity_config.xml
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: template_compiler Value: true
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: comp_name Value: cov-filesystem-capture-web-app-config
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: comp_translator Value: web-app-config
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: comp_lang Value: Non Compiled
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-.*
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>   Node: md5 Value: 139fb5ac712632fb7ffeacfe81331ea9
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> Configuration read from: C:\jars\test-repo\jars\cov-int\emit\INENTAHP1L2C\config\80775be05b96460fa7b2acf05860bc92\javaw-config-0\coverity_config.xml
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|> Node: coverity
+2017-01-05T12:56:05.969439Z|cov-build|11696|info|>   Node: cit_version Value: 1
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>   Node: config
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>     Node: build
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>       Node: compiler
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_name Value: javaw
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_101\bin
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_translator Value: javaw
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_lang Value: Java
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_front_end Value: cov-emit-java
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_desc Value: Oracle Java compiler (javaw)
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: comp_generic Value: java
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: id Value: javaw-javaw-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: version Value: 1.8
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: is_compiler Value: true
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: is_linker Value: false
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>       Node: options
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: id Value: javaw-javaw-1.8-80775be05b96460fa7b2acf05860bc92-0
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: template_config_option_id Value: javaw-javaw-.*
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: inject_capture
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>             Node: intern_trans Value: java_capture_inject
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.emit=$COVERITY_EMIT$
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.build_log=$COVERITY_OUTPUT$
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.force.debug=true
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>             Node: prepend_arg Value: -Dcoverity.executable_name=$NATIVE_COMPILER$
+2017-01-05T12:56:05.970439Z|cov-build|11696|info|>         Node: expand
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>             Node: replace_arg_regex
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>               Node: replace Value: @+(.*)
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>               Node: with Value: --coverity_resp_file=$1
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>             Node: intern_split_response_file_fn Value: line_split
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>         Node: pre_trans
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>           Node: options
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>             Node: intern_trans Value: java_pre_translate
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>         Node: begin_command_line_config
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|>   Node: md5 Value: fa3dd6ac0c621971c74048c072039114
+2017-01-05T12:56:05.971439Z|cov-build|11696|info|> 
+2017-01-05T12:56:05.996437Z|cov-internal-capture|11728|info|> Running build command: "C:\apache-maven-3.3.9\bin\mvn.cmd"  -DskipTests=true compile
+2017-01-05T12:56:05.996437Z|cov-internal-capture|11728|info|> Launching in directory C:/jars/test-repo/jars
+2017-01-05T12:56:05.998436Z|cov-internal-capture|11728|info|> EXECUTING: C:\windows\system32\cmd.exe /c ""C:\apache-maven-3.3.9\bin\mvn.cmd"  -DskipTests=true compile"
+2017-01-05T12:56:06.043432Z|cov-internal-capture|11728|info|> EXECUTING: "C:\Program Files\Java\jdk1.8.0_101\bin\java.exe"     -classpath "C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar" "-Dclassworlds.conf=C:\apache-maven-3.3.9\bin\m2.conf" "-Dmaven.home=C:\apache-maven-3.3.9" "-Dmaven.multiModuleProjectDirectory=C:\jars\test-repo\jars" org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+2017-01-05T12:56:06.047431Z|cov-internal-capture|11728|info|> CWD: C:\jars\test-repo\jars\
+2017-01-05T12:56:06.047431Z|cov-internal-capture|11728|info|> COMPILING: C:\cov-analysis-win64-8.7.0\bin\cov-translate.exe --inject-capture-argfile C:\Users\tahp1\AppData\Local\Temp\cov-tahp1\e9908915e8720d0894b33591e5f25f98\c774ceaeae27f253a7792d7b2b45ab9c "C:\Program Files\Java\jdk1.8.0_101\bin\java.exe"     -classpath "C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar" "-Dclassworlds.conf=C:\apache-maven-3.3.9\bin\m2.conf" "-Dmaven.home=C:\apache-maven-3.3.9" "-Dmaven.multiModuleProjectDirectory=C:\jars\test-repo\jars" org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+2017-01-05T12:56:06.047431Z|cov-internal-capture|11728|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-c1c3e6411947d8be5ff51b3785918686.s
+2017-01-05T12:56:06.157420Z|cov-translate|11508|output|> Using cached template compiler configuration instance C:/jars/test-repo/jars/cov-int/emit/INENTAHP1L2C/config/80775be05b96460fa7b2acf05860bc92/coverity_config.xml
+2017-01-05T12:56:06.186418Z|cov-translate|11508|output|> 
+2017-01-05T12:56:06.194417Z|cov-internal-capture|11728|info|> EXECUTING: "C:\Program Files\Java\jdk1.8.0_101\bin\java.exe" -javaagent:C:\cov-analysis-win64-8.7.0\jars\capture-bci.jar -Dcoverity.props=C:\Users\tahp1\AppData\Local\Temp\cov-tahp1\e9908915e8720d0894b33591e5f25f98\e62cec48db64a70c8755c7b86c528073.java-cap.properties -classpath "C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar" "-Dclassworlds.conf=C:\apache-maven-3.3.9\bin\m2.conf" "-Dmaven.home=C:\apache-maven-3.3.9" "-Dmaven.multiModuleProjectDirectory=C:\jars\test-repo\jars" org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+2017-01-05T12:56:13.838652Z|cov-build|11696|info|> 
+2017-01-05T12:56:13.838652Z|cov-build|11696|info|> Build time (cov-build overall): 00:00:08.656134
+2017-01-05T12:56:13.838652Z|cov-build|11696|info|> 
+2017-01-05T12:56:13.840652Z|cov-build|11696|info|> Build time ( emits total): 00:00:00.079992
+2017-01-05T12:56:13.840652Z|cov-build|11696|info|> 
+2017-01-05T12:56:13.841652Z|cov-build|11696|info|> [WARNING] No files were emitted. This may be due to a problem with your configuration
+2017-01-05T12:56:13.841652Z|cov-build|11696|info|> or because no files were actually compiled by your build command.
+2017-01-05T12:56:13.842652Z|cov-build|11696|info|> Please make sure you have configured the compilers actually used in the compilation.
+2017-01-05T12:56:13.843652Z|cov-build|11696|info|>  For more details, please look at: 
+2017-01-05T12:56:13.844652Z|cov-build|11696|info|>     C:/jars/test-repo/jars/cov-int/build-log.txt
+2017-01-05T12:56:13.847651Z|cov-build|11696|info|> 

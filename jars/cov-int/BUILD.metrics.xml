@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>8</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build --dir cov-int</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>INENTAHP1L2C</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 7 Enterprise, 64-bit, Service Pack 1 (build 7601)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>8.7.0 (build b452b3f2c8 p-lodi-push-28091.612)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>tahp1</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>C:\jars\test-repo\jars</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>C:\cov-analysis-win64-8.7.0\config\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>C:\jars\test-repo\jars\cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>C:\jars\test-repo\jars\cov-int\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>C:\jars\test-repo\jars\cov-int\emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>mvn.cmd -DskipTests=true compile</value>
+    </metric>
+</metrics>
+</coverity>
